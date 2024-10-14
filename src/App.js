@@ -1,8 +1,13 @@
+import Footer from "./Footer";
+import { Menubar } from "./Menubar";
+
 function App() {
   return (
-    <div className="App">
-    <p>hello world</p>
-    </div>
+<>
+<p>Hello world..........</p>
+<Menubar/>
+<Footer/>
+</>
   );
 }
 
